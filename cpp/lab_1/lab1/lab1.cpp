@@ -6,53 +6,10 @@ using namespace std;
 
 const string ALPHABET = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-int random(int min, int max) {
-    return min + rand() % (max - min + 1);
-}
+int random(int min, int max);
+string generateString(unsigned length_of_string);
+void game(unsigned length_of_string);
 
-string generateString(int length_of_string) 
-{
-    string target_string = "";
-    
-    for (unsigned i = 0; i < length_of_string; i++) {
-        target_string += ALPHABET[random(0, ALPHABET.length())];
-    }
-
-    return target_string;
-}
-
-void game(unsigned length_of_string)
-{
-    string target_string = generateString(length_of_string);
-    string current_string = "";
-
-    int iterations = 0;
-    int max_attemts = 0;
-    int temp_attempt = 0;
-
-    while (current_string != target_string) {
-        iterations++;
-        temp_attempt++;
-
-        char guess_char = ALPHABET[random(0, ALPHABET.length())];
-        if (guess_char == target_string[current_string.length()]) {
-            current_string += guess_char;
-
-            if (max_attemts < temp_attempt) {
-                max_attemts = temp_attempt;
-            }
-
-            temp_attempt = 0;
-        }
-    }
-
-    cout << "\n\n\t\t\t\t\t--------GAME RESULTS--------\n\n" << endl;
-    cout << "Target string: " << target_string << "\n\n";
-    cout << "Current string: " << current_string << "\n\n";
-    cout << "Iterations: " << iterations << "\n\n";
-    cout << "Max attempts: " << max_attemts << "\n\n";
-    cout << "\n\n\t\t\t\t\t--------   GOOD BYE  --------\n\n" << "\n\n";
-}
 
 int main()
 {
@@ -81,4 +38,70 @@ int main()
     game(length);
 
     return 0;
+}
+
+/*
+ * Рандомайзер символа из константной строки ALPHABET
+ *
+ * @param min левая граница(индекс) константной строки ALPHABET.
+ * @param max правая граница(индекс) константной строки ALPHABET.
+ * @return возвращает случайный символ из константной строки ALPHABET.
+ */
+int random(int min, int max) {
+    return min + rand() % (max - min + 1);
+}
+
+/*
+ * Генератор строки из случайных символов константной строки ALPHABET
+ *
+ * @param length_of_string длина генерируемой строки, неотрицательный.
+ * @return возвращает сгенерированную строку из случайных символов константной строки ALPHABET.
+ */
+string generateString(unsigned length_of_string)
+{
+    string target_string = "";
+
+    for (unsigned i = 0; i < length_of_string; i++) {
+        target_string += ALPHABET[random(0, ALPHABET.length())];
+    }
+
+    return target_string;
+}
+
+/*
+ * Механизм игры
+ *
+ * @param length_of_string длина генерируемой строки, неотрицательный.
+ */
+void game(unsigned length_of_string)
+{
+    string target_string = generateString(length_of_string);
+    string current_string = "";
+
+    int iterations = 0;
+    int max_attemts = 0;
+    int temp_attempt = 0;
+
+    while (current_string != target_string) {
+        iterations++;
+        temp_attempt++;
+
+        char guess_char = ALPHABET[random(0, ALPHABET.length())];
+        if (guess_char == target_string[current_string.length()]) {
+            current_string += guess_char;
+
+            if (max_attemts < temp_attempt) {
+                max_attemts = temp_attempt;
+            }
+
+            temp_attempt = 0;
+        }
+    }
+
+    cout << "\n\n\t\t\t\t\t--------GAME RESULTS--------\n\n" << endl;
+    cout << "\t\t\t\t\tTarget string: " << target_string << "\n\n";
+    cout << "\t\t\t\t\tCurrent string: " << current_string << "\n\n";
+    cout << "\t\t\t\t\tIterations: " << iterations << "\n\n";
+    cout << "\t\t\t\t\tMax attempts: " << max_attemts << "\n\n";
+    cout << "\n\n\t\t\t\t\t--------   GOOD BYE  --------\n\n" << "\n\n";
 }
