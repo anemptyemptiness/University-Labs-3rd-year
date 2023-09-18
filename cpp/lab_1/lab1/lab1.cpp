@@ -26,7 +26,8 @@ int main()
                 throw invalid_argument("Invalid argument! Try again...");
             }
 
-            break;
+            game(length);
+
         }
         catch (const invalid_argument& e) {
             cerr << e.what() << endl;
@@ -34,8 +35,6 @@ int main()
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
         }
     }
-
-    game(length);
 
     return 0;
 }

@@ -1,0 +1,4 @@
+﻿  lab2.cpp
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_2\lab2\lab2.cpp(133,29): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_2\lab2\lab2.cpp(290,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab2.vcxproj -> C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_2\lab2\Debug\lab2.exe
