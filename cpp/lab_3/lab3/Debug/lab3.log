@@ -1,0 +1,6 @@
+﻿  lab3.cpp
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_3\lab3\lab3.cpp(7,22): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_3\lab3\lab3.cpp(42,20): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_3\lab3\lab3.cpp(80,19): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_3\lab3\lab3.cpp(100,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab3.vcxproj -> C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_3\lab3\Debug\lab3.exe
