@@ -32,7 +32,7 @@ int main()
 
     int N = 0;
 
-    std::cout << "Welcome! Please enter the count of the mercenaries: " << std::endl;
+    std::cout << "Welcome! Please enter the count of the mercenaries(min - 6): " << std::endl;
     while (true) {        
         try {
             std::cin >> N;
@@ -249,13 +249,6 @@ void generateSwordsman(Guild* guild, std::string distance[], size_t N, size_t in
         Mercenary mercenary(&unit, &sword);
         guild->mercenaries.push_back(mercenary);
     }
-    if (uniq == "universal") {
-        Swordsman unit(randomInt(50, 100), distance[0], 1500, index + 1);
-        Sword sword(randomInt(50, 100));
-
-        Mercenary mercenary(&unit, &sword);
-        guild->mercenaries.push_back(mercenary);
-    }
 }
 
 /*
@@ -355,6 +348,7 @@ void generateIdealArmy(std::vector<std::string>* army, std::string distance[], i
     while ((*wallet) > 0) {
         if (!(*wallet) || (*wallet) < 1500) {
             std::cout << "The coins ran out :(" << std::endl;
+            break;
         }
 
         int what_unit = randomInt(0, 2);
