@@ -104,7 +104,14 @@ int main()
 		}
 
 		std::cout << "\nResults:\nAlive targets: " << count_targets - count_destroyed_targets << std::endl;
-		std::cout << "Total average damage: " << M4A4.getTotalDamage() / count_destroyed_targets << std::endl;
+		
+		int average damage = 0;
+		if (M4A4.getTotalDamage() / count_destroyed_targets != 0) {
+			std::cout << "Total average damage: " << M4A4.getTotalDamage() / count_destroyed_targets << std::endl;
+		}
+		else
+			std::cout << "Total average damage: " << M4A4.getTotalDamage() << std::endl;
+		
 		std::cout << "Total seconds: " << 60 + (seconds * -1) << "\n\n" << std::endl;
 	}
 
