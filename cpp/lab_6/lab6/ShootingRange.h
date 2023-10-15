@@ -601,11 +601,13 @@ public:
 		if (this->magazine > 0 && this->shooting_mode == 1 && bang_chance < target_chance) {
 			*total_magazine -= 3;
 
+			total_damage += 3 * 3;
 			return 3 * 3; // урон от всех 3х патрон
 		}
 		else if (this->magazine > 0 && this->shooting_mode == 0 && bang_chance < target_chance) {
 			*total_magazine -= 1;
 
+			total_damage += 1;
 			return 1;
 		}
 		else if (this->magazine > 0 && bang_chance > target_chance) {
@@ -639,6 +641,10 @@ public:
 		this->magazine = 0;
 	}
 
+	int getTotalDamage() {
+		return total_damage;
+	}
+
 private:
 	void* quadrate = 0;
 	void* rhomb = 0;
@@ -646,6 +652,7 @@ private:
 	int shooting_mode = 0;
 	int magazine = 30;
 	double gun_chance = 0.0;
+	int total_damage = 0;
 };
 
 class ShootingRange {

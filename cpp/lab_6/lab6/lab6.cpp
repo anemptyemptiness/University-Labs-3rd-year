@@ -104,6 +104,7 @@ int main()
 		}
 
 		std::cout << "\nResults:\nAlive targets: " << count_targets - count_destroyed_targets << std::endl;
+		std::cout << "Total average damage: " << M4A4.getTotalDamage() / count_destroyed_targets << std::endl;
 		std::cout << "Total seconds: " << 60 + (seconds * -1) << "\n\n" << std::endl;
 	}
 
@@ -141,7 +142,7 @@ void distanceShootingQuadrate(int distance_mode, int glare, QuadrateTarget* quad
 }
 
 /*
- * Отрисовка квадратной мишени
+ * Отрисовка ромбовидной мишени
  *
  * @param distance_mode - дистанция стрельбы
  * @param glare - режим засвета
