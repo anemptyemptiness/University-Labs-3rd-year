@@ -20,7 +20,7 @@ int main()
 
 	while (true) {
 		std::cout << "Welcome to the shooting range! You will shoot in 60 seconds\nSome questions...\n" << std::endl;
-		std::cout << "What distance? (100m/50m): ";
+		std::cout << "What distance? (1/0): ";
 		std::cin >> distance_mode;
 		std::cout << "Shooting mode? (3 patrons/1 patron): ";
 		std::cin >> shooting_mode;
@@ -34,7 +34,7 @@ int main()
 		std::cin >> count_magazines;
 		std::cout << std::endl;
 
-		if ((distance_mode != 50 && distance_mode != 100) ||
+		if ((distance_mode != 1 && distance_mode != 0) ||
 			(shooting_mode != 3 && shooting_mode != 1) ||
 			(moving_mode != 1 && moving_mode != 0) ||
 			(glare != 1 && glare != 0) ||
@@ -105,8 +105,8 @@ int main()
 
 		std::cout << "\nResults:\nAlive targets: " << count_targets - count_destroyed_targets << std::endl;
 		
-		int average damage = 0;
-		if (M4A4.getTotalDamage() / count_destroyed_targets != 0) {
+		int average_damage = 0;
+		if (count_destroyed_targets > 0) {
 			std::cout << "Total average damage: " << M4A4.getTotalDamage() / count_destroyed_targets << std::endl;
 		}
 		else

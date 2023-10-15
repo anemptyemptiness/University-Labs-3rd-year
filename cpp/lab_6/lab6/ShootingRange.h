@@ -602,13 +602,13 @@ public:
 			*total_magazine -= 3;
 
 			total_damage += 3 * 3;
-			return 3 * 3; // урон от всех 3х патрон
+			return 3 * 3; // урон от всех 3х пуль
 		}
 		else if (this->magazine > 0 && this->shooting_mode == 0 && bang_chance < target_chance) {
 			*total_magazine -= 1;
 
 			total_damage += 1;
-			return 1;
+			return 1 * 3; // урон от одной пули
 		}
 		else if (this->magazine > 0 && bang_chance > target_chance) {
 			*total_magazine -= this->shooting_mode ? 3 : 1;
