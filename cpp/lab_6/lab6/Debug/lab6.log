@@ -1,0 +1,46 @@
+﻿  lab6.cpp
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(29,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(33,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(41,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(45,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(54,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(55,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(62,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(65,40): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(95,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(96,30): warning C4309: =: усечение константного значения
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(106,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(107,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(112,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(113,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(116,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(117,30): warning C4309: =: усечение константного значения
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(246,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(247,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(290,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(294,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(302,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(306,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(317,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(318,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(319,11): warning C4018: <=: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(323,35): warning C4018: <=: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(335,17): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(352,35): warning C4018: <=: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(354,24): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(354,43): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(361,17): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(373,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(374,30): warning C4309: =: усечение константного значения
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(384,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(385,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(390,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(391,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(394,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(395,30): warning C4309: =: усечение константного значения
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(449,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(450,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(531,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\ShootingRange.h(532,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\lab6.cpp(12,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab6.vcxproj -> C:\Users\dneru\Desktop\Учеба\3 курс 1 сем\cpp\lab_6\lab6\Debug\lab6.exe
