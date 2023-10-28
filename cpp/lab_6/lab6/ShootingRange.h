@@ -607,7 +607,7 @@ public:
 		else if (this->magazine > 0 && this->shooting_mode == 0 && bang_chance < target_chance) {
 			*total_magazine -= 1;
 
-			total_damage += 1;
+			total_damage += 1 * 3;
 			return 1 * 3; // урон от одной пули
 		}
 		else if (this->magazine > 0 && bang_chance > target_chance) {
@@ -676,7 +676,7 @@ public:
 		while ((*(QuadrateTarget*)this->quadrate).accessShooting() && (*(Gun*)this->gun).checkMagazine()) {
 			(*(QuadrateTarget*)this->quadrate).getDamage((*(Gun*)gun).bang(this->glare, this->distance_mode, this->moving_mode));
 
-			if ((*(QuadrateTarget*)this->quadrate).generateChance(this->glare, this->distance_mode, this->moving_mode) < (*(Gun*)gun).getGunChance()) {
+			if ((*(QuadrateTarget*)this->quadrate).generateChance(this->glare, this->distance_mode, this->moving_mode) > (*(Gun*)gun).getGunChance()) {
 				(*(QuadrateTarget*)this->quadrate).generateTargetAfterShooting(this->distance_mode);
 			}
 
@@ -695,7 +695,7 @@ public:
 			 
 			 (*(RhombTarget*)this->rhomb).getDamage((*(Gun*)this->gun).bang(this->glare, this->distance_mode, this->moving_mode));
 
-			 if ((*(RhombTarget*)this->rhomb).generateChance(this->glare, this->distance_mode, this->moving_mode) < (*(Gun*)gun).getGunChance()) {
+			 if ((*(RhombTarget*)this->rhomb).generateChance(this->glare, this->distance_mode, this->moving_mode) > (*(Gun*)gun).getGunChance()) {
 				 (*(RhombTarget*)this->rhomb).generateTargetAfterShooting(this->distance_mode);
 			 }
 
